@@ -1,0 +1,109 @@
+ here we are do the declerative programming while in javascript we are use imperitive programming
+
+ single page application
+ user experience
+
+
+
+ declerative programming
+ component based architecure
+ single page application
+
+
+
+
+ object.seal in which we can modify but we can not add or declerative
+ object.freee we cannot even modify the object
+
+ notation object.seal(user)
+ object.freeze(user1)
+
+ behind the scence array is also an object in javascript
+
+
+ // some array operation using predefined keyword
+
+ pop()
+ push()
+ shift()
+ unshift()
+ concat()
+ indexof()
+ includes()
+ reverse()
+ sort()
+ slice()-> new array create krta hai not change the original array
+ splice()->while splice change the original array
+
+ const user={...user2}// shallow copy
+
+ deep copy
+
+ // combined assingnment operator or compound operator
+
+
+// Hoisting
+
+
+koi bhi variable ko jb hum excees
+
+whenever we use any kind of variable before its decleration and it does not give any kind of error then than variable is called hoisting
+
+// temporal dead zone
+
+
+//scope 
+
+jb bhi hum var ka use krte hai tb wo global window ke andar jate hai while jb bhi hum agar let ya const use krte tb wo script scope ke andar jata hai
+
+
+/lexical and block scope creation
+
+closer function
+jb hum kisi inner function ke andar outer function ke attribute ko use krte hai to vo inner function se attach hojata 
+
+// function ke andar agar hum var ude krte hai to wo funcntion me hi excessible hoga
+
+jb hum var let const use nhi krte hai tb wo khi bhi use ho skta hai isse  avoid krne ke liye hume "strict mode" use krna chahiye
+
+console.dir(a)  to ye kisi bhi value ya function ko object ke form me print krta hai
+
+
+
+// callback function
+a(function()){
+    console.log("a")
+}
+
+// call back function-> when we call any function by passing some other function and the function that pass fro the called function is calling callback function
+and passing through which function is higher function
+
+
+// har method function hota hia par har function method nhi hota
+
+fuction ko jab hum 
+
+
+/// Arrow function in javascript
+
+
+
+
+// bom browser object model
+
+
+
+// innerhtml me html tag ata hai while innertext me html tag nhi atta
+
+// text content
+
+// dom represent viewport while bom represent all 
+dom create html parser
+
+// document .getelementsbytagname
+
+//document.queryselector anything we canpass there if we want to pass class so we have to do dot with element
+
+//  queryselectorall
+
+// innertext me new line nhi ata nhai while textcontent me newline ata hai
